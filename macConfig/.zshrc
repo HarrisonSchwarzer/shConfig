@@ -103,4 +103,26 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+## GIT
+alias gs="git status"
+alias gp="git pull"
+alias gc="git commit -m"
+alias gch="git checkout"
+alias gb="git branch"
+alias ga="git add ."
+alias gfp="git fetch --prune"
+
+## BASH
+# postfix to command after pipe
+alias clip="pbcopy" # cause you can't keep two commands straight
+alias chmox="chmod +x"
+
+## FOLDERS
+alias home="cd ~"
+alias work="cd ~/Workspace && ls"
+alias personal="cd ~/{PERSONAL_PROJECTS_FOLDER} && ls" 
+
+## NEOVIM
+alias nm="nvim"
+
 eval "$(starship init zsh)"
